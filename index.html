@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Static Resume</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+    <body>
+        <div class="Navbar">
+            <div class="Logo">BUILD YOUR RESUME</div>
+            <div class="NavLinks">
+                <a href="#home">Home</a>
+                <a href="#about">CREATE RESUME</a>
+            </div>
+        </div>
+        <div class="container1">
+            <form action="" class="cv-form" id = "cv-form">
+                <div class="form-container">
+                    <h2>About Section</h2>
+                    <div class="row full-width">
+                        <input name="fullname" type="text" class="input-field fullname" placeholder="Your Name" id="fullname">
+                    </div>
+                    <div class="row full-width">
+                        <input name="job_desc" type="text" class="input-field fullname" placeholder="job designation" id="job_desc">
+                    </div>
+                    <div class="row full-width">
+                        <input name = "image"  type = "file" class = "input-field image" id = "picture" accept = "image/*" >
+                    </div>
+                    <div class="row full-width">
+                      <textarea name="profile_description" class="input-field profile_description" rows="3" placeholder="Profile Description" id="profile_description"></textarea>
+                    </div>
+                    <div class="row full-width">
+                        <input name = "email" pattern="^[\w\.-]+@[a-zA-Z\d\.-]+\.[a-zA-Z]{2,}$" type = "text" class = "input-field email" placeholder="your email" id = "email">
+                    </div>
+                    <div class="row full-width">
+                        <input name = "address"  type = "text" class = "input-field address" placeholder="your address" id = "address">
+                    </div>
+                    <div class="row full-width">
+                        <input name = "phonenumber" pattern="^\+?(\d{1,3})?[-. (]*(\d{3})[-. )]*(\d{3})[-. ]*(\d{4})$"  type = "text" class = "input-field phonenumber" placeholder="your phonenumber" id = "phonenumber" >
+                    </div>
+                    <div class="row full-width">
+                        <input name = "website" pattern="^(https?:\/\/)?(www\.)?[a-zA-Z0-9-]{1,63}\.[a-zA-Z]{2,6}(\.[a-zA-Z]{2,6})?([\/\w\-._~:?#\[\]@!$&'()*+,;=]*)?$"  type = "text" class = "input-field website" placeholder="your website" id = "website">
+                    </div>
+                    <h1>YOUR SKILLS</h1>
+                    <div class="row half-width">
+                        <input type="text" name="skillname --- your first skill" class="input-field" placeholder="Your First skill" id="skill1">
+                        <input type="number" name="rating --- 4/5" class="input-field" placeholder="Skill Rating" min="1" max="5"id="rating1">                    
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" name="skillname --- your first skill" class="input-field" placeholder="Your Second skill" id="skill2">
+                        <input type="number" name="rating --- 4/5" class="input-field" placeholder="Skill Rating" min="1" max="5"id="rating2">                    
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" name="skillname --- your first skill" class="input-field" placeholder="Your First skill" id="skill3">
+                        <input type="number" name="rating --- 4/5" class="input-field" placeholder="Skill Rating" min="1" max="5"id="rating3">                    
+                    </div>
+                    <h1>Your Education</h1>
+                    <div class="row full-width">
+                        <input type="text" name="in_name" class="input-field" placeholder="Education Institute" id="in1">
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" pattern="^(201[2-9]|202[0-3])-(202[0-3])$" name="year" class="input-field different-style" placeholder="Year"id="y1">
+                        <input type="text" name="degree" class="input-field different-style" placeholder="Degree" id="d1">                
+                    </div>
+                    <div class="row full-width">
+                        <input type="text" name="in_name" class="input-field" placeholder="Education Institute" id="in2">
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" name="year" class="input-field different-style" placeholder="Year"id="y2">
+                        <input type="text" name="degree" class="input-field different-style" placeholder="Degree" id="d2">                
+                    </div>
+                    <div class="row full-width">
+                        <input type="text" name="in_name" class="input-field" placeholder="Education Institute" id="in3">
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" name="year"  pattern="^(201[2-9]|202[0-3])-(202[0-3])$" class="input-field different-style" placeholder="Year"id="y3">
+                        <input type="text" name="degree" class="input-field different-style" placeholder="Degree" id="d3">                
+                    </div>
+                    <h1>YOUR WORK EXPERIENCE</h1>
+                    <div class="row full-width">
+                        <input type="text" name="job" class="input-field" placeholder="Job Name"id="j1">
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" class="input-field" name="location" placeholder="location" id="l1">
+                        <input type="text" class="input-field" name="date" placeholder="date" id="d1" pattern="^(201[2-9]|202[0-3])-(202[0-3])$">                     
+                    </div>
+                    <div class="row full-width">
+                        <textarea class="textarea-field" rows="3" placeholder="Job description" name="description"id="desc1"></textarea>                
+                    </div>
+                    <div class="row full-width">
+                        <input type="text" name="job" class="input-field" placeholder="Job Name"id="j2">
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" class="input-field" name="location" placeholder="location" id="l2">
+                        <input type="text" class="input-field" name="date" placeholder="date" id="d2" pattern="^(201[2-9]|202[0-3])-(202[0-3])$">                     
+                    </div>
+                    <div class="row full-width">
+                        <textarea class="textarea-field" rows="3" placeholder="Job description" name="description"id="desc2"></textarea>                
+                    </div>
+                    <div class="row full-width">
+                        <input type="text" name="job" class="input-field" placeholder="Job Name"id="j3" pattern="^(201[2-9]|202[0-3])-(202[0-3])$">
+                    </div>
+                    <div class="row half-width">
+                        <input type="text" class="input-field" name="location" placeholder="location" id="l3">
+                        <input type="text" class="input-field" name="date" placeholder="date" id="d3">                     
+                    </div>
+                    <div class="row full-width">
+                        <textarea class="textarea-field" rows="3" placeholder="Job description" name="description"id="desc3"></textarea>                
+                    </div>
+                    
+                </div>
+                </form>
+                </div>
+            <br/>
+        </div>
+        <div class="container1"><button type="submit"class="button"id="submitBtn">Generate Resume</button></div>
+        <div id="generatedResume" class="resume-output"></div>
+        <div class="container1">
+        <button id="edit" class="button" style="display: none;" onclick="edit()">Edit Resume</button>
+        </div>
+        <!--FORM HERE-->        
+            <!--break point ...-->
+        </div>
+    </div>
+    <script src="index.js"></script>
+    </body>
+</html>
